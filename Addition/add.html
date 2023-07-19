@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title> 
+    <style>
+        body{background-color:rgb(17, 19, 19);}
+        section {border: 1px solid black;
+        background-color: aqua;}
+    </style>
+</head>
+<body>
+   <section width="50" height="100">
+    <center>    <div class="container">
+        <div class="heading">
+        <h1><b>Calculator</b></h1>
+        </div>
+
+        <div class="data">
+            <label for="firstnum">Enter first Number</label><br>
+            <input type="number" placeholder="Enter the First Number." id="val1">
+            <br>
+            <br>
+            <label for="secondnum">Enter second Number</label><br>
+            <input type="number" placeholder="Enter the second Number."id="val2">
+        </div>
+        <br>
+            <button onclick="add()">Addition</button>
+            <button onclick="sub()">Subtraction</button>
+            <button onclick="mul()">Multiplication</button>
+            <button onclick="div()">Division</button>
+            <button onclick="exp()">Exponential</button>
+                      <p id="A1">The answer is:</p>
+    </div>
+</center>
+</section>
+<Script src="./script.js"></Script>
+</body>
+
+</html>
